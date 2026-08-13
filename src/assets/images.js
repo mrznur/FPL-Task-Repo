@@ -1,15 +1,15 @@
-// Assets stay in the original /assets directory, exposed through Vite's publicDir.
 const asset = (name) => `/${encodeURIComponent(name)}`
 
 export const images = {
-  logo: asset('logo.png'),
   headerMark: asset('Tuff-logo-header.png'),
   headerLogoText: asset('tuffore-header-logo-text.png'),
   hero: asset('hero-image.png'),
-  athlete: asset('athelete image.png'),
-  missionLeft: asset('side image.png'),
-  missionRight: asset('backside image.png'),
-  playButton: asset('play-button.png'),
   patternDark: asset('Vector.png'),
-  patternLight: asset('white vector.png'),
+  memberOne: asset('Ellipse 1.png'),
+  memberTwo: asset('Ellipse 2.png'),
+  memberThree: asset('Ellipse 3.png'),
+  aboutTraining: asset('Frame 120.png'),
+  aboutEnvironment: asset('Frame 121.png'),
+  aboutCoaches: asset('Frame 122.png'),
+  aboutCommunity: asset('frame 123.png'),
 }
