@@ -10,10 +10,10 @@ function Header() {
 
   return (
     <header className="absolute inset-x-0 top-0 z-50">
-      <div className="mx-auto flex h-20 w-[calc(100%-2.5rem)] max-w-350 items-center justify-between gap-4 sm:gap-6 md:w-[calc(100%-5rem)] md:h-24 lg:h-28 xl:h-32">
+      <div className="mx-auto flex h-20 w-[calc(100%-2.5rem)] max-w-350 items-center justify-between gap-6 md:w-[calc(100%-5rem)] md:h-24 lg:h-28 xl:h-32">
         <a href="#top" aria-label="TUFFCORE Fitness home" onClick={closeMenu} className="flex shrink-0 items-center gap-3">
           <img src={images.headerMark} alt="" className="h-auto w-10 sm:w-12 md:w-14 xl:w-16" />
-          <img src={images.headerLogoText} alt="TUFFCORE" className="h-auto w-20 sm:w-24 md:w-28 xl:w-36" />
+          <img src={images.headerLogoText} alt="TUFFCORE" className="h-auto w-24 md:w-28 xl:w-36" />
         </a>
 
         <nav aria-label="Main navigation" className="hidden items-center gap-4 xl:flex 2xl:gap-7">

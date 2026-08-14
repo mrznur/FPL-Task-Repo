@@ -14,7 +14,7 @@ function Footer() {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[1.55fr_.95fr_1.15fr_1fr] lg:gap-8">
           <div className="flex min-h-40 flex-col justify-between">
             <div className="flex items-center gap-3">
-              <img src={images.headerMark} alt="" className="h-auto w-10" />
+              <img src={images.headerMark} alt="" className="h-auto w-14 md:w-20" />
               <img
                 src={images.headerLogoText}
                 alt="TUFFCORE"
