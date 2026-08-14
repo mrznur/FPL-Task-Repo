@@ -23,7 +23,7 @@ function HeroSection() {
         <div className="w-full text-center">
           <h1
             id="hero-title"
-            className="font-display text-4xl leading-[0.9] tracking-[-0.035em] text-white uppercase sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl"
+            className="font-normal md:font-display text-4xl leading-[0.9] tracking-wider text-white uppercase md:text-6xl lg:text-8xl scale-y-125 mb-5"
           >
             Women-only small group PT
           </h1>
