@@ -13,7 +13,7 @@ function AboutSection() {
       className="bg-ink py-16 sm:py-24 lg:py-32 xl:py-36"
       aria-labelledby="about-title"
     >
-      <div className="page-shell">
+      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-[1216px] sm:w-[calc(100%-5rem)]">
         <div className="grid gap-7 sm:gap-9 md:grid-cols-[minmax(230px,.72fr)_minmax(0,1.75fr)] md:items-center lg:gap-20 xl:gap-26 md:justify-items-center">
           <h2
             id="about-title"
@@ -23,7 +23,7 @@ function AboutSection() {
             <br />
             {accentTitle}
           </h2>
-          <p className="max-w-[800px] text-sm font-bold leading-[1.65] tracking-[0.005em] text-white/95 sm:text-base sm:leading-[1.7] lg:pb-1 lg:text-[1.05rem]">
+          <p className="min-w-0 max-w-[800px] text-sm font-normal leading-[1.65] tracking-[0.005em] text-white/95 sm:text-base sm:leading-[1.7] lg:pb-1 lg:text-[1.05rem]">
             {description}
           </p>
         </div>

@@ -19,23 +19,23 @@ function HeroSection() {
         aria-hidden="true"
       />
 
-      <div className="page-shell flex w-full justify-center pt-16 sm:pt-24 lg:pt-28 xl:pt-32">
-        <div className="max-w-[1500px] text-center">
+      <div className="page-shell flex w-full justify-center pt-16 sm:pt-20 lg:pt-24 xl:pt-28">
+        <div className="w-full text-center">
           <h1
             id="hero-title"
-            className="font-display text-5xl leading-[0.9] tracking-[-0.035em] text-white uppercase sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl"
+            className="font-display text-4xl leading-[0.9] tracking-[-0.035em] text-white uppercase sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl"
           >
             Women-only small group PT
           </h1>
-          <p className="mt-4 font-sans text-sm font-medium uppercase tracking-[0.16em] text-white sm:mt-6 sm:text-base sm:tracking-[0.24em] md:text-lg lg:text-xl xl:text-2xl">
+          <p className="mt-4 font-sans text-xs font-medium uppercase tracking-[0.16em] text-white sm:mt-5 sm:text-sm sm:tracking-[0.24em] md:text-base lg:text-lg xl:text-xl">
             Coaching in Oxford
           </p>
           <Button
             href="#programmes"
-            className="mt-8 min-h-14 px-6 text-base font-bold tracking-wide sm:mt-12 sm:min-h-[76px] sm:px-10 sm:text-2xl lg:min-h-[88px] lg:text-3xl"
+            className="mt-8 min-h-12 px-5 text-sm font-bold tracking-wide sm:mt-10 sm:min-h-16 sm:px-8 sm:text-xl lg:min-h-20 lg:px-10 lg:text-2xl"
           >
             Get started{" "}
-            <HiArrowRight aria-hidden="true" className="size-7 sm:size-9" />
+            <HiArrowRight aria-hidden="true" className="size-5 sm:size-7 lg:size-9" />
           </Button>
         </div>
       </div>
