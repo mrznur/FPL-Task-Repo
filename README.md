@@ -1,6 +1,6 @@
 # Tuffcore Fitness
 
-Landing page for Tuffcore Fitness - a women-only gym in Oxford.
+Landing page for Tuffcore Fitness.
 
 Built with React, Vite, and Tailwind CSS v4.
 
