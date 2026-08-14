@@ -10,7 +10,7 @@ function FreeTourBanner() {
         aria-hidden="true"
         className="pointer-events-none absolute right-0 top-1/2 -z-10 h-[110%] w-auto -translate-y-1/2 opacity-90"
       />
-      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-[1216px] sm:w-[calc(100%-5rem)]">
+      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-[1400px] sm:w-[calc(100%-5rem)]">
         <h2 className="font-black uppercase leading-none tracking-tight text-4xl text-black md:text-5xl lg:text-6xl">
           Experience Tuffcore
           <br />

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { HiPlay } from "react-icons/hi2";
 
 const VIDEO_ID = "Osd4DLpMNp4";
 const THUMB = `https://img.youtube.com/vi/${VIDEO_ID}/maxresdefault.jpg`;
@@ -31,13 +32,7 @@ function VideoSection() {
               className="absolute inset-0 flex items-center justify-center"
             >
               <span className="flex size-16 items-center justify-center rounded-sm bg-white/90 shadow-xl transition-transform duration-200 hover:scale-110">
-                <svg
-                  viewBox="0 0 24 24"
-                  className="size-7 translate-x-0.5 fill-black"
-                  aria-hidden="true"
-                >
-                  <path d="M8 5v14l11-7z" />
-                </svg>
+                <HiPlay aria-hidden="true" className="size-7 translate-x-0.5 text-black" />
               </span>
             </button>
           </>

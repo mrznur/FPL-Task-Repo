@@ -1,26 +1,9 @@
 import { useRef, useState } from 'react'
-import { HiChevronLeft, HiChevronRight } from 'react-icons/hi2'
+import { HiChevronLeft, HiChevronRight, HiPlay } from 'react-icons/hi2'
 import { successStoriesContent } from '../../data/content'
 import { images } from '../../assets/images'
 
-const VIDEO_IDS = [
-  'Osd4DLpMNp4',
-  'Osd4DLpMNp4',
-  'Osd4DLpMNp4',
-  'Osd4DLpMNp4',
-  'Osd4DLpMNp4',
-  'Osd4DLpMNp4',
-]
-
-function PlayIcon() {
-  return (
-    <span className="flex size-12 items-center justify-center rounded-sm bg-white/90 shadow-lg transition-transform duration-200 group-hover:scale-110 sm:size-14">
-      <svg viewBox="0 0 24 24" className="size-5 translate-x-0.5 fill-black sm:size-6" aria-hidden="true">
-        <path d="M8 5v14l11-7z" />
-      </svg>
-    </span>
-  )
-}
+const VIDEO_ID = 'Osd4DLpMNp4'
 
 function VideoCard({ thumb, videoId }) {
   const [playing, setPlaying] = useState(false)
@@ -42,7 +25,9 @@ function VideoCard({ thumb, videoId }) {
         >
           <img src={thumb} alt="" className="absolute inset-0 size-full object-cover brightness-75" />
           <div className="relative z-10">
-            <PlayIcon />
+            <span className="flex size-12 items-center justify-center rounded-sm bg-white/90 shadow-lg transition-transform duration-200 group-hover:scale-110 sm:size-14">
+              <HiPlay aria-hidden="true" className="size-5 translate-x-0.5 text-black sm:size-6" />
+            </span>
           </div>
         </button>
       )}
@@ -70,7 +55,7 @@ function SuccessStories() {
 
   return (
     <section id="success-stories" className="bg-ink py-16 sm:py-20 lg:py-28">
-      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-[1216px] sm:w-[calc(100%-5rem)]">
+      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-350 sm:w-[calc(100%-5rem)]">
         <div className="flex flex-col gap-10 sm:flex-row sm:items-start sm:justify-between sm:gap-10 lg:gap-18">
           <h2 className="display-heading shrink-0 text-5xl lg:text-6xl scale-y-115">
             <span className="block text-white font-light">{heading}</span>
@@ -82,11 +67,11 @@ function SuccessStories() {
         </div>
 
         <div className="mt-10 grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:gap-5">
-          {featured.map((story, i) => (
+          {featured.map((story) => (
             <VideoCard
               key={story.id}
               thumb={images[story.thumb]}
-              videoId={VIDEO_IDS[stories.indexOf(story)]}
+              videoId={VIDEO_ID}
             />
           ))}
         </div>

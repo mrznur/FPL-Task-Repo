@@ -5,7 +5,7 @@ import { images } from "../../assets/images";
 function HeroSection() {
   return (
     <section
-      className="relative isolate flex min-h-[600px] items-center overflow-hidden bg-ink pt-20 sm:min-h-[680px] md:min-h-[740px] md:pt-24 lg:min-h-[820px] xl:min-h-screen"
+      className="relative isolate flex min-h-150 items-center overflow-hidden bg-ink pt-20 sm:min-h-170 md:min-h-185 md:pt-24 lg:min-h-205 xl:min-h-screen"
       aria-labelledby="hero-title"
     >
       <img
@@ -27,7 +27,7 @@ function HeroSection() {
           >
             Women-only small group PT
           </h1>
-          <p className="mt-4 font-sans text-xs font-medium uppercase tracking-[0.16em] text-white sm:mt-5 sm:text-sm sm:tracking-[0.24em] md:text-base lg:text-lg xl:text-xl">
+          <p className="mt-4 font-sans text-sm font-medium uppercase text-white sm:mt-5 tracking-[0.3em] md:text-base lg:text-lg xl:text-4xl">
             Coaching in Oxford
           </p>
           <Button

@@ -22,7 +22,7 @@ function MissionSection() {
             <h2 className="display-heading font-light text-5xl text-black lg:text-7xl scale-y-110">
               Our Mission
             </h2>
-            <p className="mt-5 md:text-md font-light leading-relaxed text-black lg:max-w-md">
+            <p className="mt-5 text-base font-light leading-relaxed text-black lg:max-w-md" style={{ color: "black", WebkitTextStroke: "0.5px black" }}>
               At TUFFCORE FITNESS, our mission is simple: to create a
               supportive, empowering space where women of all backgrounds can
               build lasting strength, confidence, and resilience. Through expert
@@ -31,7 +31,7 @@ function MissionSection() {
             </p>
             <a
               href="#contact"
-              className="mt-8 inline-flex items-center border-2 border-black px-8 py-3 text-md md:text-xl font-bold uppercase text-black transition-colors hover:bg-black hover:text-white"
+              className="mt-8 inline-flex items-center border-2 border-black px-8 py-3 text-base font-bold uppercase text-black transition-colors hover:bg-black hover:text-white md:text-xl"
             >
               Start your journey
             </a>

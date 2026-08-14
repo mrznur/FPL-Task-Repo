@@ -4,12 +4,9 @@ import { reviewsContent } from '../../data/content'
 
 function StarRating() {
   return (
-    <div className="flex gap-1 [&>span]:hidden" aria-label="Five out of five stars">
+    <div className="flex gap-1" aria-label="Five out of five stars">
       {Array.from({ length: 5 }).map((_, i) => (
         <HiStar key={`icon-${i}`} aria-hidden="true" className="size-[18px] text-accent" />
-      ))}
-      {Array.from({ length: 5 }).map((_, i) => (
-        <span key={i} className="text-accent text-lg leading-none">★</span>
       ))}
     </div>
   )
@@ -85,9 +82,9 @@ function ReviewsSection() {
 
   return (
     <section id="reviews" className="bg-ink py-16 sm:py-20 lg:py-28">
-      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-[1216px] sm:w-[calc(100%-5rem)]">
+      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-350 sm:w-[calc(100%-5rem)]">
         <div className="mb-10 text-center sm:mb-12 lg:mb-14">
-          <p className="text-sm md:text-md font-bold uppercase tracking-[0.015em] text-white scale-y-120">
+          <p className="text-sm font-bold uppercase tracking-[0.015em] text-white scale-y-120 md:text-base">
             {eyebrow}
           </p>
           <h2 className="display-heading font-light scale-y-115 tracking-[0.05rem] mt-5 text-4xl text-white md:text-5xl lg:text-6xl">

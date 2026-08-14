@@ -19,7 +19,7 @@ function RunningClub() {
         aria-hidden="true"
       />
 
-      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-[1216px] sm:w-[calc(100%-5rem)]">
+      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-350 sm:w-[calc(100%-5rem)]">
         <div className="w-full ">
           <p className="text-base font-bold uppercase tracking-[0.2em] md:leading-12 text-white md:text-4xl">
             Oxford's women only
@@ -27,12 +27,12 @@ function RunningClub() {
           <h2 className="mt-1 font-black italic uppercase leading-none tracking-wide text-accent text-4xl md:text-6xl lg:text-7xl">
             Running Club
           </h2>
-          <p className="mt-5 text-sm font-light leading-relaxed text-white/80 md:text-base">
+          <p className="my-5 text-sm font-light leading-relaxed text-white/80 md:text-base">
             Join our FREE Women's Running Club and be part of an active, supportive community.
           </p>
           <a
             href="#contact"
-            className="mt-7 inline-flex items-center gap-3 rounded-lg bg-white px-4 md:px-8 py-3 text-sm md:text-lg font-bold uppercase text-black transition-colors hover:bg-accent hover:text-white"
+            className="mt-9 inline-flex items-center gap-3 rounded-lg bg-white px-4 md:px-8 py-3 text-sm md:text-lg font-bold uppercase text-black transition-colors hover:bg-accent hover:text-white"
           >
             Join the club <HiArrowRight className="size-6" aria-hidden="true" />
           </a>

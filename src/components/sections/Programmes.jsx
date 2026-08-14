@@ -26,7 +26,7 @@ function Programmes() {
 
   return (
     <section id="programmes" className="bg-ink py-16 sm:py-20 lg:py-28">
-      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-[1216px] sm:w-[calc(100%-5rem)]">
+      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-350 sm:w-[calc(100%-5rem)]">
         <h2 className="display-heading text-6xl text-accent md:text-7xl xl:text-8xl tracking-[0.005rem] font-light">
           {heading}
         </h2>
@@ -36,7 +36,7 @@ function Programmes() {
 
         <div
           ref={trackRef}
-          className="mt-10 flex gap-6 overflow-x-auto scroll-smooth [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
+          className="mt-10 flex gap-6 overflow-x-auto scroll-smooth [-ms-overflow-style:none] scrollbar-none [&::-webkit-scrollbar]:hidden"
         >
           {cards.map((card) => (
             <article
@@ -60,7 +60,7 @@ function Programmes() {
                 </div>
                 <a
                   href="#contact"
-                  className="inline-flex items-center gap-2 border border-white px-5 py-2 text-sm md:text-md font-bold uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-black"
+                  className="inline-flex items-center gap-2 border border-white px-5 py-2 text-sm font-bold uppercase tracking-widest text-white transition-colors hover:bg-white hover:text-black md:text-base"
                 >
                   Find out more{" "}
                   <HiArrowRight className="size-7" aria-hidden="true" />

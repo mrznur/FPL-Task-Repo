@@ -10,7 +10,7 @@ function Footer() {
 
   return (
     <footer className="border-t-2 border-accent bg-black" id="contact">
-      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-304 py-12 sm:py-14 lg:pt-14 lg:pb-20">
+      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-350 py-12 sm:py-14 lg:pt-14 lg:pb-20">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-[1.55fr_.95fr_1.15fr_1fr] lg:gap-8">
           <div className="flex min-h-40 flex-col justify-between">
             <div className="flex items-center gap-3">
@@ -133,7 +133,7 @@ function Footer() {
         <hr className="text-accent mb-14"></hr>
       </div>
       <div>
-        <div className="mx-auto flex w-[calc(100%-2.5rem)] max-w-[1216px] flex-col items-start justify-between gap-4 pb-12 text-[12px] font-normal text-white/60 sm:flex-row sm:items-center">
+        <div className="mx-auto flex w-[calc(100%-2.5rem)] max-w-[1400px] flex-col items-start justify-between gap-4 pb-12 text-[12px] font-normal text-white/60 sm:flex-row sm:items-center">
           <div className="flex gap-14">
             <a
               href="#"

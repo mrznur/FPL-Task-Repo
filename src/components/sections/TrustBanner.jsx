@@ -17,7 +17,7 @@ function TrustBanner() {
         className="pointer-events-none absolute left-1/2 top-1/2 -z-10 h-[150%] max-w-none -translate-x-1/2 -translate-y-1/2 opacity-50 sm:h-[130%]"
       />
 
-      <div className="mx-auto flex w-[calc(100%-2.5rem)] max-w-[1216px] flex-col justify-between gap-8 py-10 sm:w-[calc(100%-5rem)] sm:flex-row sm:items-center sm:gap-8 sm:py-11 lg:py-[54px]">
+      <div className="mx-auto flex w-[calc(100%-2.5rem)] max-w-350 flex-col justify-between gap-8 py-10 sm:w-[calc(100%-5rem)] sm:flex-row sm:items-center sm:gap-8 sm:py-11 lg:py-13.5">
         <div className="text-black">
           <h2 className="text-3xl font-bold uppercase leading-tight sm:text-3xl md:text-4xl lg:text-5xl">
             Trusted by
@@ -32,7 +32,7 @@ function TrustBanner() {
                     key={src}
                     src={src}
                     alt=""
-                    className="size-8 rounded-full border-2 border-accent object-cover sm:size-7"
+                    className="size-8 md:size-10 rounded-full border border-accent object-cover"
                     style={{
                       marginLeft: index === 0 ? 0 : "-8px",
                       zIndex: 3 - index,
@@ -64,11 +64,11 @@ function TrustBanner() {
             ))}
             <FaStarHalfAlt aria-hidden="true" className="size-4 sm:size-4" />
           </div>
-          <p className="mt-1.5 whitespace-nowrap text-md font-medium md:text-md">
+          <p className="mt-1.5 whitespace-nowrap text-base font-medium">
             1.5k+ reviews{" "}
             <span
-              className="ml-1 text-sm font-bold md:text-base"
-              style={{ color: "white", WebkitTextStroke: "0.19px black" }}
+              className="ml-1 text-sm font-bold md:text-lg"
+              style={{ color: "white", WebkitTextStroke: "0.25px black" }}
             >
               Google
             </span>

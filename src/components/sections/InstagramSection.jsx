@@ -28,7 +28,7 @@ function InstagramIcon() {
 function InstagramSection() {
   return (
     <section className="bg-black py-8 sm:py-16 lg:py-20" aria-label="Instagram feed">
-      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-[1216px] sm:w-[calc(100%-5rem)]">
+      <div className="mx-auto w-[calc(100%-2.5rem)] max-w-350 sm:w-[calc(100%-5rem)]">
 
         <div className="flex flex-col items-center">
           <InstagramIcon />
@@ -64,7 +64,7 @@ function InstagramSection() {
         </div>
 
         <div className="my-12 flex flex-col items-center gap-6 md:gap-10 md:my-18">
-          <p className="display-heading text-4xl font-light scale-y-110 tracking-[0.005rem] text-white md:text-6xl">
+          <p className="display-heading text-4xl font-light scale-y-110 tracking-[0.005rem] text-white md:text-6xl lg:text-8xl">
             @tuffcorefitness_ox
           </p>
           <a
