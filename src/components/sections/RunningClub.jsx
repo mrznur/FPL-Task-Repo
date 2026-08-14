@@ -21,10 +21,10 @@ function RunningClub() {
 
       <div className="mx-auto w-[calc(100%-2.5rem)] max-w-350 sm:w-[calc(100%-5rem)]">
         <div className="w-full ">
-          <p className="text-base font-bold uppercase tracking-[0.2em] md:leading-12 text-white md:text-4xl">
+          <p className="text-base font-bold uppercase tracking-[0.2em] md:leading-12 text-white md:text-4xl lg:text-5xl">
             Oxford's women only
           </p>
-          <h2 className="mt-1 font-black italic uppercase leading-none tracking-wide text-accent text-4xl md:text-6xl lg:text-7xl">
+          <h2 className="section-heading mt-1 italic tracking-wide text-accent text-3xl md:text-6xl lg:text-8xl">
             Running Club
           </h2>
           <p className="my-5 text-sm font-light leading-relaxed text-white/80 md:text-base">

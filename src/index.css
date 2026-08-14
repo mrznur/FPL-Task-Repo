@@ -86,9 +86,18 @@
 }
 
 @utility display-heading {
-  font-family: Impact, "Arial Narrow", "Roboto Condensed", sans-serif;
+  font-family: "Gotham", -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 900;
-  letter-spacing: -0.04em;
+  letter-spacing: 0.01em;
   line-height: 0.9;
   text-transform: uppercase;
+}
+
+@utility section-heading {
+  font-family: "Gotham", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.02em;
 }

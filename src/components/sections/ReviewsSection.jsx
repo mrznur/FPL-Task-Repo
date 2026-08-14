@@ -87,7 +87,7 @@ function ReviewsSection() {
           <p className="text-sm font-bold uppercase tracking-[0.015em] text-white scale-y-120 md:text-base">
             {eyebrow}
           </p>
-          <h2 className="display-heading font-light scale-y-115 tracking-[0.05rem] mt-5 text-4xl text-white md:text-5xl lg:text-6xl">
+          <h2 className="display-heading scale-y-140 tracking-normal mt-5 text-4xl text-white md:text-5xl lg:text-7xl">
             {heading}
           </h2>
         </div>

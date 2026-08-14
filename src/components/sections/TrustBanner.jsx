@@ -19,7 +19,7 @@ function TrustBanner() {
 
       <div className="mx-auto flex w-[calc(100%-2.5rem)] max-w-350 flex-col justify-between gap-8 py-10 sm:w-[calc(100%-5rem)] sm:flex-row sm:items-center sm:gap-8 sm:py-11 lg:py-13.5">
         <div className="text-black">
-          <h2 className="text-3xl font-bold uppercase leading-tight sm:text-3xl md:text-4xl lg:text-5xl">
+          <h2 className="section-heading text-3xl leading-tight sm:text-3xl md:text-4xl lg:text-5xl">
             Trusted by
             <br />
             <span className="text-white">500+ women</span>

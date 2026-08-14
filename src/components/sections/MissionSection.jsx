@@ -19,7 +19,7 @@ function MissionSection() {
           />
 
           <div className="min-w-0 flex flex-1 flex-col items-center px-6 text-center sm:px-10 lg:px-16">
-            <h2 className="display-heading font-light text-5xl text-black lg:text-7xl scale-y-110">
+            <h2 className="display-heading text-4xl text-black md:text-5xl lg:text-7xl scale-y-140 mb-5">
               Our Mission
             </h2>
             <p className="mt-5 text-base font-light leading-relaxed text-black lg:max-w-md" style={{ color: "black", WebkitTextStroke: "0.5px black" }}>

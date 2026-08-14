@@ -18,7 +18,7 @@ function Footer() {
               <img
                 src={images.headerLogoText}
                 alt="TUFFCORE"
-                className="h-auto w-21.75"
+                className="h-auto w-32"
               />
             </div>
             <p className="max-w-54 text-[13px] font-light leading-[1.65] text-white">
@@ -28,7 +28,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="display-heading mb-4 tracking-wide text-[34px] text-accent font-light scale-y-115">
+            <h3 className="font-bolder mb-4 tracking-[-0.01rem] uppercase text-[32px] text-accent scale-y-140">
               Menu
             </h3>
             <ul className="flex flex-col gap-2">
@@ -54,7 +54,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="display-heading font-light tracking-wide scale-y-115 mb-4 text-[34px] text-accent">
+            <h3 className="font-bolder mb-4 tracking-[-0.01rem] uppercase text-[32px] text-accent scale-y-140">
               Contact Us
             </h3>
             <ul className="flex flex-col gap-2.5 font-light">
@@ -81,7 +81,7 @@ function Footer() {
           </div>
 
           <div>
-            <h3 className="display-heading mb-4 text-[34px] text-accent scale-y-115 tracking-wide font-light">
+            <h3 className="font-bolder uppercase mb-4 tracking-[-0.01rem] text-[32px] text-accent scale-y-140">
               Opening Times
             </h3>
             <ul className="flex flex-col gap-1 text-[15px] font-light text-white">

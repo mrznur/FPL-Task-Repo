@@ -33,7 +33,7 @@ function InstagramSection() {
         <div className="flex flex-col items-center">
           <InstagramIcon />
           <div className="mt-2 h-24 md:h-42 w-0.5 bg-white/70" aria-hidden="true" />
-          <h2 className="display-heading font-light tracking-[0.005rem] mt-4 text-4xl text-white md:text-6xl scale-y-110">
+          <h2 className="display-heading tracking-[-0.05rem] mt-4 text-4xl text-white md:text-5xl lg:text-7xl scale-y-140">
             The latest on Instagram
           </h2>
         </div>
@@ -64,7 +64,7 @@ function InstagramSection() {
         </div>
 
         <div className="my-12 flex flex-col items-center gap-6 md:gap-10 md:my-18">
-          <p className="display-heading text-4xl font-light scale-y-110 tracking-[0.005rem] text-white md:text-6xl lg:text-8xl">
+          <p className="display-heading text-2xl scale-y-140 tracking-[0.005rem] text-white md:text-5xl lg:text-7xl">
             @tuffcorefitness_ox
           </p>
           <a

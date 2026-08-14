@@ -17,7 +17,7 @@ function AboutSection() {
         <div className="grid gap-7 sm:gap-9 md:grid-cols-[minmax(230px,.72fr)_minmax(0,1.75fr)] md:items-center lg:gap-20 xl:gap-26 md:justify-items-center">
           <h2
             id="about-title"
-            className="display-heading text-5xl font-normal tracking-[0.005em] text-accent md:text-6xl lg:text-7xl xl:text-8xl"
+            className="display-heading text-4xl tracking-[-0.02em] text-accent md:text-5xl lg:text-7xl scale-y-140"
           >
             {title}
             <br />

@@ -57,9 +57,9 @@ function SuccessStories() {
     <section id="success-stories" className="bg-ink py-16 sm:py-20 lg:py-28">
       <div className="mx-auto w-[calc(100%-2.5rem)] max-w-350 sm:w-[calc(100%-5rem)]">
         <div className="flex flex-col gap-10 sm:flex-row sm:items-start sm:justify-between sm:gap-10 lg:gap-18">
-          <h2 className="display-heading shrink-0 text-5xl lg:text-6xl scale-y-115">
-            <span className="block text-white font-light">{heading}</span>
-            <span className="block text-accent font-light">{headingAccent}</span>
+          <h2 className="display-heading shrink-0 text-4xl md:text-5xl lg:text-7xl scale-y-140 mb-3 tracking-normal">
+            <span className="block text-white">{heading}</span>
+            <span className="block text-accent">{headingAccent}</span>
           </h2>
           <p className="max-w-md text-xs md:text-sm font-bold leading-relaxed text-white/80 sm:text-base sm:pt-1 lg:max-w-lg">
             {description}

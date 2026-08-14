@@ -27,7 +27,7 @@ function Programmes() {
   return (
     <section id="programmes" className="bg-ink py-16 sm:py-20 lg:py-28">
       <div className="mx-auto w-[calc(100%-2.5rem)] max-w-350 sm:w-[calc(100%-5rem)]">
-        <h2 className="display-heading text-6xl text-accent md:text-7xl xl:text-8xl tracking-[0.005rem] font-light">
+        <h2 className="display-heading text-4xl text-accent md:text-6xl lg:text-7xl tracking-[-0.01rem] scale-y-140">
           {heading}
         </h2>
         <p className="mt-4 text-white text-base lg:text-lg font-bold tracking-[0.008rem]">
